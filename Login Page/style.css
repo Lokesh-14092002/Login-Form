@@ -1,0 +1,111 @@
+body{
+    background-color: blanchedalmond;
+}
+.main{
+   border-radius: 4%;
+    margin: auto;
+    margin-top: 100px;
+    width: 800px;
+    height: 500px;
+    border:1px solid orangered;
+}
+.left{
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
+    border:1px solid orangered; 
+    width: 50%;
+    height: 100%;
+    background-color: orangered;
+    text-align: center;
+}
+h1{
+    margin-top: 100px;
+    font-family: monospace;
+}
+input{
+    text-align: center;
+    width: 60%;
+    margin: 10px;
+    height: 30px;
+    border-radius: 35px;
+    border:1px solid orangered;
+}
+input:hover{ 
+    background-color: rgb(238, 228, 218);
+}
+input[type="submit"]{
+    background-color: orange;
+    height: 50px;
+    width: 60px;
+    display: block;
+    margin: auto;
+
+}
+
+.forgetpassword{
+    padding-top: 20px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(230, 164, 42);
+    cursor: pointer;
+    
+}
+.or{
+    background-color: orangered;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+   margin: auto;
+    margin-left: 96%;
+    margin-top: -45%;
+    align-items: center;
+    padding-top: 10px;
+}
+.right{
+    
+    width: 50%;
+    margin: auto;
+    margin-top: -279px;
+    margin-left: 494px;
+    padding-bottom: 50px; 
+}
+button{
+    border:none;
+    width: 40px;
+    font-size: 15px;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 50%;
+}
+.twitter{
+    color:rgb(49, 194, 238)
+}
+.twitter:hover{
+    background-color:rgb(49, 194, 238);
+    color: white;
+
+    cursor: pointer;
+} 
+
+.facebook{
+    color: blue;
+
+}
+.facebook:hover{
+    background-color: blue;
+    color: white;
+
+    cursor: pointer;
+}
+.google{
+    color: red;
+
+}
+.google:hover{
+
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
